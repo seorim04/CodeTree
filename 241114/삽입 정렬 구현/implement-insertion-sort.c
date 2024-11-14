@@ -1,38 +1,37 @@
 #include <stdio.h>
-#define MAX 100
 
 int n;
-int arr[MAX];
+int arr[10];
 
 void InsertSort()
 {
-    for(int i=1; i<n; i++)
+    for (int i = 1; i < n; i++)
     {
-        int j=i-1;
-        int key=arr[i];
-        while(j>=0 && arr[j]>key)
+        int j = i - 1;
+        int key = arr[i];
+        while (j >= 0 && arr[j] > key)
         {
-            arr[j+1]=arr[j];
+            arr[j + 1] = arr[j];
             j--;
         }
-        arr[j+1]=key;
+        arr[j + 1] = key;
     }
 }
-int main() {
+
+int main()
+{
     scanf("%d", &n);
 
-    for(int i=0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
-        scanf("%d",arr[i]);
+        scanf("%d", &arr[i]);
     }
     InsertSort();
 
-    for(int i=0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
     }
-
-
 
     return 0;
 }
