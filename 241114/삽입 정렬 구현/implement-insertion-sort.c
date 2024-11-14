@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int n;
-int arr[10];
+int arr[100];
 
 void InsertSort()
 {
