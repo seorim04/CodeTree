@@ -5,6 +5,6 @@ int main() {
     printf("Total dayss in Year\n");
     printf("%d\n", 365);
     printf("Circumference rate");
-    printf(3.14159265535);
+    printf("%f",3.14159265535);
     return 0;
 }
