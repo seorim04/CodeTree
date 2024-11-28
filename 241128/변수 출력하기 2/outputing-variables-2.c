@@ -5,6 +5,6 @@ int main() {
     int a=3;
     char b='C';
 
-    printf("%d!.....!%c",a,b);
+    printf("%c!.....!%d",b,a);
     return 0;
 }
