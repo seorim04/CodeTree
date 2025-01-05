@@ -5,23 +5,23 @@ int main() {
     char a;
     scanf("%c", &a);
 
-    if(c=='S')
+    if(a=='S')
     {
         printf("Superior");
     }
-    else if(c=='A')
+    else if(a=='A')
     {
         printf("Excellent");
     }
-    else if(c=='B')
+    else if(a=='B')
     {
         printf("good");
     }
-    else if(c=='C')
+    else if(a=='C')
     {
         printf("Usually");
     }
-    else if(c=='D')
+    else if(a=='D')
     {
         printf("Effort");
     }
