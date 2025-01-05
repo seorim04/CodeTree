@@ -15,7 +15,7 @@ int main() {
     }
     else if(a=='B')
     {
-        printf("good");
+        printf("Good");
     }
     else if(a=='C')
     {
