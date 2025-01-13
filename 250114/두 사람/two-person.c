@@ -11,5 +11,9 @@ int main() {
     {
         printf("1");
     }
+    else 
+    {
+        printf("0");
+    }
     return 0;
 }
