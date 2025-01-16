@@ -9,6 +9,11 @@ int main() {
     {
         printf("28");
     }
+    else if(n%2==0)
+    {
+        printf("30");
+    }
+
     else
     {
         printf("31");
