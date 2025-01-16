@@ -13,7 +13,8 @@ int main() {
     {
         if(b_fever>=37 && bc=='Y' || bc=='n')
         {
-            printf("E");
+            if (c_fever>=37 && cc=='Y' || cc=='N')
+                printf("E");
         }
         else if (c_fever>=37 && cc=='Y' || cc=='N')
         {
