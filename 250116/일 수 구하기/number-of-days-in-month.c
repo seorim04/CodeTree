@@ -5,16 +5,20 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    if(n==2 || n==8)
+    if(n==2)
     {
         printf("28");
     }
-    else if(n%2==0)
+    else if(n%2==0 || n==9 || n==11)
     {
         printf("30");
     }
 
-    else
+    else if(n==8 || n==10 || n==12)
+    {
+        printf("31");
+    }
+    else 
     {
         printf("31");
     }
