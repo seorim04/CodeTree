@@ -7,7 +7,7 @@ int main() {
 
     while(a<=b)
     {
-        printf("%d ", a)
+        printf("%d ", a);
         if(a%2==1)
             a*=2;
         else
